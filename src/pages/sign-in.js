@@ -17,12 +17,6 @@ const SignIn = () => {
       <div className="w-full lg:w-3/5">
         <div className="mb-6 flex-grow">
           <h1 className="mb-1">Welcome back</h1>
-          <p className="text-sm font-light">
-            Don't have an account?{" "}
-            <Link to="/sign-up" className="underline">
-              Sign up
-            </Link>
-          </p>
         </div>
         <form
           onSubmit={e => {
